@@ -3,6 +3,8 @@ layout: default
 ---
 
 # Green Judge backdoor
+## 此漏洞已被修復
+### [Hitcon Zeroday](https://zeroday.hitcon.org/vulnerability/ZD-2020-00877)
 ## 序言
 
 反正這個後門是我學長告訴我說，Green Judge之前有一個沒封過的後門
