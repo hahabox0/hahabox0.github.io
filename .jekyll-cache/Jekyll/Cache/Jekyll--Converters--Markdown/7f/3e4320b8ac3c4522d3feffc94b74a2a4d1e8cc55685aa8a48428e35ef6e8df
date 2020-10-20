@@ -1,0 +1,41 @@
+I"2<h1 id="維護mail-server">維護mail server</h1>
+
+<ul>
+  <li>這篇只是廢文請跳過</li>
+</ul>
+
+<h2 id="開頭一定抱怨">開頭一定抱怨</h2>
+
+<p>阿我們的mail server是多久沒修CVE出來也不會更新</p>
+
+<p>我這屆處理，然後它的版本又不正確我是要怎樣</p>
+
+<p>sender count 裡面有超級劣質的code 我也不知到如何設計成那樣的不要問我</p>
+
+<h2 id="mail-server-問題">mail server 問題</h2>
+
+<ol>
+  <li>垃圾郵件送出無法以數量截攔</li>
+  <li>sender count (郵件計數)無法正常運作</li>
+  <li>mail server年久失修無更新極有可能有漏洞</li>
+</ol>
+
+<h2 id="垃圾郵件">垃圾郵件</h2>
+
+<p>啊就某老師被盜帳號</p>
+
+<p>然後我要一直停權復權是怎樣我的問題ㄛ</p>
+
+<h2 id="sender-count">sender count</h2>
+
+<p>shell script寫的
+不過cron是寫在root極度有可能利用他來提權
+方法如下</p>
+<ol>
+  <li>利用bounce丟東西給maillog</li>
+  <li>繞過sed的偵測</li>
+  <li>直接注入code給sed參數即可取得mail的root權限
+~~
+##</li>
+</ol>
+:ET

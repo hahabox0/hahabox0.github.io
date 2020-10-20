@@ -1,0 +1,79 @@
+I"�<h1 id="維護mail-server">維護mail server</h1>
+
+<ul>
+  <li>這篇只是廢文跟murmur請跳過</li>
+</ul>
+
+<h2 id="開頭一定抱怨">開頭一定抱怨</h2>
+
+<p>阿我們的mail server是多久沒修CVE出來也不會更新</p>
+
+<p>我這屆處理，然後它的版本又不正確我是要怎樣</p>
+
+<p>sender count 裡面有超級劣質的code 我也不知到如何設計成那樣的不要問我</p>
+
+<h2 id="mail-server-問題">mail server 問題</h2>
+
+<ol>
+  <li>垃圾郵件送出無法以數量截攔</li>
+  <li>sender count (郵件計數)無法正常運作</li>
+  <li>mail server年久失修無更新極有可能有漏洞</li>
+</ol>
+
+<h2 id="垃圾郵件">垃圾郵件</h2>
+
+<p>啊就某老師被盜帳號</p>
+
+<p>然後我要一直停權復權是怎樣我的問題ㄛ</p>
+
+<p>之後我還要用policyd 真的血汗勞工</p>
+
+<h2 id="sender-count">sender count</h2>
+
+<p>shell script寫的</p>
+
+<p>我有修正他連送出失敗都可以過的東西拉</p>
+
+<p>不過變得比較慢QQ</p>
+
+<p>不過cron是寫在root極度有可能利用他來提權</p>
+
+<p>方法如下</p>
+<ol>
+  <li>利用bounce丟東西給maillog</li>
+  <li>繞過sed的偵測</li>
+  <li>直接注入code給sed參數即可取得mail的root權限</li>
+</ol>
+
+<p><del>拜託不要亂打我們伺服器雖然反正2個月就會消失ㄌ</del></p>
+
+<h2 id="postfix-dovecot">postfix dovecot</h2>
+
+<p>阿贛我按到pkg自動更新</p>
+
+<p>阿贛我按到pkg更新</p>
+
+<p><del>我好棒</del></p>
+
+<p>然後因為不支援mysql的database</p>
+
+<p>所以我就要port tree整個重裝</p>
+
+<p>然後花了一天的時間</p>
+
+<p>不過值得拉</p>
+
+<p>CVE被打得不償失</p>
+
+<p><del>被Ibilis講的我很怕</del></p>
+
+<h2 id="心得">心得</h2>
+
+<p>這是我高二第一次修mail server拉</p>
+
+<p>希望之後不會2個月不會有問題</p>
+
+<p>有好的開始就會是成功的一半</p>
+
+<p><del>可是先森這不是一個好的開始ㄅ</del></p>
+:ET

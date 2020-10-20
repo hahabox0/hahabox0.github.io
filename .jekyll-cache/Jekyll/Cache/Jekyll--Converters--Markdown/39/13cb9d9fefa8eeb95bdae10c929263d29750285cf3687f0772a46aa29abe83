@@ -1,4 +1,11 @@
-I"<h1 id="人生總是有ㄐㄅ人會打你的伺服器">人生總是有ㄐㄅ人會打你的伺服器</h1>
+I"u<h1 id="人生總是有ㄐㄅ人會打你的伺服器">人生總是有ㄐㄅ人會打你的伺服器</h1>
+<hr />
+<h2 id="垃圾郵件修死人"><strong><a href="./notes/mail_server.html">垃圾郵件修死人</a></strong></h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>為什麼要用Freebsd當系統拉
+
+然後postfix跟dovecot都長出CVE了我是要用屁啊
+</code></pre></div></div>
+
 <hr />
 <h2 id="金盾初賽心得"><strong><a href="./writeup/CSC.html">金盾初賽心得</a>.</strong></h2>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>混亂的一天 APCS ISSC 金盾
